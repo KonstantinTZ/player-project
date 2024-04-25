@@ -1261,6 +1261,17 @@ input[type=radio]:checked {
     margin-left: auto;
     visibility: hidden;
   }
+
+  #dialog1::before{
+    position: absolute;
+    content: '';
+    right: 0;
+    top: 0;
+    left: -41vw;
+    bottom: 0;
+
+  }
+
   .dialog__dostup {
     display: block;
     align-self: center;
