@@ -1276,9 +1276,6 @@ input[type=radio]:checked {
     border-top-right-radius: 0.872vw;
     height: 6.818vh;
   }
-  .dialog__center{
-    overflow-y: scroll;
-  }
 
   .dialog__close {
     width: 2.047vw;
@@ -1387,6 +1384,12 @@ input[type=radio]:checked {
   }
   .main__row:last-child .column:nth-child(1) .column__search {
     opacity: 1 !important;
+  }
+}
+
+@media screen and (max-width: 630px) and (orientation: landscape) {
+    .dialog__center{
+    overflow-y: scroll;
   }
 }
 @media screen and (max-width: 680px) and (orientation: portrait) {
