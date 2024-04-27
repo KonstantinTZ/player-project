@@ -1276,6 +1276,10 @@ input[type=radio]:checked {
     border-top-right-radius: 0.872vw;
     height: 6.818vh;
   }
+  .dialog__center{
+    overflow-y: scroll;
+  }
+
   .dialog__close {
     width: 2.047vw;
     height: 2.047vw;
